@@ -1,0 +1,42 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+string c1, c2, c3, cx;
+int f1, f2, f3, fx;
+
+
+int main(){
+cin >> c1 >> f1 >> c2 >> f2 >> c3 >> f3 >> cx >> fx;
+if (cx == "?"s && fx == -1){
+    cout << 1 << endl << 2 << endl << 3 << endl;
+}
+if (cx == "?"s && fx == f1){
+    cout << 1 << endl;
+}
+if (cx == "?"s && fx == f2){
+        cout << 2 << endl;
+    }
+if(cx == "?"s && fx == f3){
+        cout << 3 << endl;
+    }
+if (cx == c1 && fx == -1){
+    cout << 1 << endl;
+}
+if (cx == c2 && fx == -1){
+        cout << 2 << endl;
+    }
+if(cx == c3 && fx == -1){
+        cout << 3 << endl;
+    }    
+ if (cx == c1 && fx == f1){
+    cout << 1 << endl;
+}
+if (cx == c2 && fx == f2){
+        cout << 2 << endl;
+    }
+if(cx == c3 && fx == f3){
+        cout << 3 << endl;
+    }    
+    return(0);
+}
