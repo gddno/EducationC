@@ -26,5 +26,5 @@ int main() {
    	
    	cout << maximum(mass, size) << endl;
     
-	return 0;
+	return 0
 }
