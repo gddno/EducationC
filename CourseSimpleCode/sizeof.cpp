@@ -5,8 +5,13 @@
 using namespace std;
 
 int main(){
-    double arr[]{24,7645,29,2099,90};
-    cout << sizeof(arr)/sizeof(arr[0]) << endl;
-    system("pause");
     
+   
+   int arr[]{12,24,34,355,343,21};
+   int a = sizeof(arr);
+   int b = sizeof(arr[0]);
+
+   
+    cout << a/b << endl;
+   
 }
