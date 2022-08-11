@@ -1,0 +1,20 @@
+
+#include <iostream>
+
+using namespace std;
+
+void printFunction(void (*message)(int)) {
+    message(7);
+}
+
+void print(int a) {
+    cout << "print: " << a << endl;
+}
+
+int main()
+{
+    
+    printFunction(print);
+
+    return 0;
+}
